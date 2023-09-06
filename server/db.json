@@ -1,0 +1,187 @@
+{
+  "myStoreBook": [
+    {
+      "id": 1,
+      "image": "http://127.0.0.1:5500/css/Books.png",
+      "title": "Atomic One's",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus eos facere!",
+      "description": "Printed Books"
+    },
+    {
+      "id": 2,
+      "image": "http://127.0.0.1:5500/css/Books.png",
+      "title": "Atomic One's",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus eos facere!",
+      "description": "Printed Books"
+    },
+    {
+      "id": 3,
+      "image": "http://127.0.0.1:5500/css/Books.png",
+      "title": "Atomic One's",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus eos facere!",
+      "description": "Printed Books"
+    },
+    {
+      "id": 4,
+      "image": "http://127.0.0.1:5500/css/Book%20(1).png",
+      "title": " The Dark Light",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus eos facere!",
+      "description": "Printed Books"
+    },
+    {
+      "id": 5,
+      "image": "http://127.0.0.1:5500/css/Book%20(1).png",
+      "title": " The Dark Light",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus eos facere!",
+      "description": "Printed Books"
+    },
+    {
+      "id": 6,
+      "image": "http://127.0.0.1:5500/css/Book%20(1).png",
+      "title": " The Dark Light",
+      "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus eos facere!",
+      "description": "Printed Books"
+    }
+  ],
+  "Articles": [
+    {
+      "id": 1,
+      "image": "http://127.0.0.1:5500/css/image8%20(2).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 20.05.2022"
+    },
+    {
+      "id": 2,
+      "image": "http://127.0.0.1:5500/css/image8%20(1).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 21.05.2022"
+    },
+    {
+      "id": 3,
+      "image": "http://127.0.0.1:5500/css/image8%20(3).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 22.05.2022"
+    },
+    {
+      "id":4,
+      "image": "http://127.0.0.1:5500/css/Mask%20Group%20(1).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 23.05.2022"
+    },
+    {
+      "id": 5,
+      "image": "http://127.0.0.1:5500/css/Mask%20Group%20(2).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 24.05.2022"
+    },
+    {
+      "id": 6,
+      "image": "http://127.0.0.1:5500/css/Mask%20Group%20(3).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 25.05.2022"
+    },
+    {
+      "id": 7,
+      "image": "http://127.0.0.1:5500/css/Mask%20Group%20(4).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 26.05.2022"
+    },
+    {
+      "id": 8,
+      "image": "http://127.0.0.1:5500/css/Mask%20Group%20(5).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 27.05.2022"
+    },
+    {
+      "id": 9,
+      "image": "http://127.0.0.1:5500/css/image8%20(3).png",
+      "title": "The energy efficiency offers hydrotherapy or swim",
+      "about": "The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.",
+      "description": "Author - 28.05.2022"
+    }
+  ],
+  "Booksinfo": [
+    {
+      "id": 1,
+      "image": "http://127.0.0.1:5500/css/Books.png",
+      "title": "Atomic One’s",
+      "about": "Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum.",
+      "price": 40.00,
+      "publisher": "Learning Private Limited (1 January 2021)",
+      "language": "English",
+      "paperback": "205 pages",
+      "isbn10": "357485068478",
+      "dimensions": "20 x 14 x 4 cm"
+
+    },
+    {
+      "id": 2,
+      "image": "http://127.0.0.1:5500/css/Books.png",
+      "title": "Atomic One’s",
+      "about": "Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum.",
+      "price": 35.00,
+      "publisher": "Learning Private Limited (1 January 2021)",
+      "language": "English",
+      "paperback": "210 pages",
+      "isbn10": "357485068478",
+      "dimensions": "20 x 14 x 4 cm"
+    },
+    {
+      "id": 3,
+      "image": "http://127.0.0.1:5500/css/Books.png",
+      "title": "Atomic One’s",
+      "about": "Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum.",
+      "price": 30.00,
+      "publisher": "Learning Private Limited (1 January 2021)",
+      "language": "English",
+      "paperback": "212 pages",
+      "isbn": "357485068478",
+      "dimensions": "20 x 14 x 4 cm"
+    },
+    {
+      "id":4,
+      "image": "http://127.0.0.1:5500/css/Book%20(1).png",
+      "title": "The Dark Light",
+      "about": "Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum.",
+      "price": 15.00,
+      "publisher": "Learning Private Limited (1 January 2021)",
+      "language": "English",
+      "paperback": "220 pages",
+      "isbn10": "357485068478",
+      "dimensions": "20 x 14 x 4 cm"
+    },
+    {
+      "id": 5,
+      "image": "http://127.0.0.1:5500/css/Book%20(1).png",
+      "title": "The Dark Light",
+      "about": "Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum.",
+      "price": 20.00,
+      "publisher": "Learning Private Limited (1 January 2021)",
+      "language": "English",
+      "paperback": "230 pages",
+      "isbn10": "357485068478",
+      "dimensions": "20 x 14 x 4 cm"
+    },
+    {
+      "id": 6,
+      "image": "http://127.0.0.1:5500/css/Book%20(1).png",
+      "title": "The Dark Light",
+      "about": "Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum.",
+      "price": 25.00,
+      "publisher": "Learning Private Limited (1 January 2021)",
+      "language": "English",
+      "paperback": "240 pages",
+      "isbn10": "357485068478",
+      "dimensions": "20 x 14 x 4 cm"
+    }
+    
+  ]
+}

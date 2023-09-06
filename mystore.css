@@ -1,0 +1,1145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #f6f8fc;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body .sectionOne {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b3764;
+}
+body .sectionOne header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionOne header .nav {
+  height: 100%;
+  width: 85%;
+  background-color: #1b3764;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+body .sectionOne header .nav .pages {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+body .sectionOne header .nav .pages .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionOne header .nav .pages .logo img {
+  height: 25px;
+  width: 25px;
+}
+body .sectionOne header .nav .pages .logo h3 {
+  font-size: 28px;
+}
+body .sectionOne header .nav .pages .sosial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+body .sectionOne header .nav .pages .sosial div {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f8fc;
+  color: #1b3764;
+}
+body .sectionOne header .nav .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body .sectionOne header .nav .list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-size: 17px;
+}
+body .sectionOne header .nav .list ul a {
+  color: #f6f8fc;
+  text-decoration: none;
+}
+body .sectionOne header .nav .list .cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionOne header .nav .list .cart i {
+  font-size: 17px;
+}
+body .sectionOne header .nav .list .cart sup {
+  height: 75px;
+  width: 75px;
+  background-color: rgb(255, 202, 66);
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 1px;
+  color: rgb(27, 55, 100);
+  font-weight: 700;
+}
+body .sectionOne header .nav .list button {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(255, 202, 66);
+  color: rgb(27, 55, 100);
+  font-size: 17px;
+  border: none;
+  font-weight: 700;
+}
+body .sectionOne header .nav .list .hamburgermenu {
+  display: none;
+  height: 100%;
+  padding: 20px;
+  width: 30%;
+  background-color: #1b3764;
+}
+body .sectionOne header .nav .list .hamburgermenu ul {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body .sectionOne header .nav .list .hamburgermenu ul li {
+  color: rgb(27, 55, 100);
+  font-size: 20px;
+  font-weight: 700;
+}
+body .sectionOne header .nav .list .hamburgermenu i {
+  width: 100%;
+  color: #f1f1f1;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+}
+body .sectionOne header .nav .list .hamburgericon {
+  display: none;
+}
+body .sectionOne .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 0;
+}
+body .sectionOne .container h5 {
+  font-size: 50px;
+  text-align: center;
+  color: #f6f8fc;
+  font-weight: 700;
+}
+body .sectionOne .container .line {
+  height: 3px;
+  width: 60px;
+  background-color: rgb(255, 202, 66);
+}
+body .sectionOne .container p {
+  max-width: 50%;
+  color: rgb(180, 199, 231);
+  font-size: 19px;
+  text-align: center;
+}
+body .sectionTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 248, 252);
+}
+body .sectionTwo .container {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  padding: 100px 0;
+  gap: 40px;
+}
+body .sectionTwo .container a {
+  text-decoration: none;
+}
+body .sectionTwo .container .books {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  gap: 29px;
+}
+body .sectionTwo .container .books .firstBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  gap: 10px;
+}
+body .sectionTwo .container .books .firstBook .offset {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectionTwo .container .books .firstBook .offset img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .sectionTwo .container .books .firstBook .offset .darklight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionTwo .container .books .firstBook .information {
+  height: 100%;
+  width: 100%;
+}
+body .sectionTwo .container .books .firstBook .information .info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+body .sectionTwo .container .books .firstBook .information .info button {
+  height: 65px;
+  width: 220px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 202, 66);
+  color: rgb(27, 55, 100);
+  font-size: 19px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .firstBook .information .info h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .firstBook .information .info p {
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  max-width: 90%;
+  line-height: 2;
+}
+body .sectionTwo .container .books .firstBook .information .info div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .sectionTwo .container .books .firstBook .information .info div .printed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+body .sectionTwo .container .books .firstBook .information .info div i {
+  color: rgb(255, 202, 66);
+}
+body .sectionTwo .container .books .firstBook .information .info div p {
+  color: #1b3764;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .firstBook .information .info div span {
+  color: rgb(150, 154, 160);
+  font-size: 18px;
+}
+body .sectionTwo .container .books .firstBook .information .info div div {
+  display: flex;
+  flex-direction: column;
+}
+body .sectionTwo .container .books .secondBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  gap: 10px;
+}
+body .sectionTwo .container .books .secondBook .offset {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectionTwo .container .books .secondBook .offset img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .sectionTwo .container .books .secondBook .offset .darklight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionTwo .container .books .secondBook .information {
+  height: 100%;
+  width: 100%;
+}
+body .sectionTwo .container .books .secondBook .information .info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+body .sectionTwo .container .books .secondBook .information .info button {
+  height: 65px;
+  width: 220px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 202, 66);
+  color: rgb(27, 55, 100);
+  font-size: 19px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .secondBook .information .info h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .secondBook .information .info p {
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  max-width: 90%;
+  line-height: 2;
+}
+body .sectionTwo .container .books .secondBook .information .info div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .sectionTwo .container .books .secondBook .information .info div .printed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+body .sectionTwo .container .books .secondBook .information .info div i {
+  color: rgb(255, 202, 66);
+}
+body .sectionTwo .container .books .secondBook .information .info div p {
+  color: #1b3764;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .secondBook .information .info div span {
+  color: rgb(150, 154, 160);
+  font-size: 18px;
+}
+body .sectionTwo .container .books .secondBook .information .info div div {
+  display: flex;
+  flex-direction: column;
+}
+body .sectionTwo .container .books .thirdBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  gap: 10px;
+}
+body .sectionTwo .container .books .thirdBook .offset {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectionTwo .container .books .thirdBook .offset img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .sectionTwo .container .books .thirdBook .offset .darklight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionTwo .container .books .thirdBook .information {
+  height: 100%;
+  width: 100%;
+}
+body .sectionTwo .container .books .thirdBook .information .info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+body .sectionTwo .container .books .thirdBook .information .info button {
+  height: 65px;
+  width: 220px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 202, 66);
+  color: rgb(27, 55, 100);
+  font-size: 19px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .thirdBook .information .info h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .thirdBook .information .info p {
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  max-width: 90%;
+  line-height: 2;
+}
+body .sectionTwo .container .books .thirdBook .information .info div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .sectionTwo .container .books .thirdBook .information .info div .printed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+body .sectionTwo .container .books .thirdBook .information .info div i {
+  color: rgb(255, 202, 66);
+}
+body .sectionTwo .container .books .thirdBook .information .info div p {
+  color: #1b3764;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .thirdBook .information .info div span {
+  color: rgb(150, 154, 160);
+  font-size: 18px;
+}
+body .sectionTwo .container .books .thirdBook .information .info div div {
+  display: flex;
+  flex-direction: column;
+}
+body .sectionTwo .container .books .fourthBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  gap: 10px;
+}
+body .sectionTwo .container .books .fourthBook .offset {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectionTwo .container .books .fourthBook .offset img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .sectionTwo .container .books .fourthBook .offset .darklight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionTwo .container .books .fourthBook .information {
+  height: 100%;
+  width: 100%;
+}
+body .sectionTwo .container .books .fourthBook .information .info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+body .sectionTwo .container .books .fourthBook .information .info button {
+  height: 65px;
+  width: 220px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 202, 66);
+  color: rgb(27, 55, 100);
+  font-size: 19px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .fourthBook .information .info h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .fourthBook .information .info p {
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  max-width: 90%;
+  line-height: 2;
+}
+body .sectionTwo .container .books .fourthBook .information .info div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .sectionTwo .container .books .fourthBook .information .info div .printed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+body .sectionTwo .container .books .fourthBook .information .info div i {
+  color: rgb(255, 202, 66);
+}
+body .sectionTwo .container .books .fourthBook .information .info div p {
+  color: #1b3764;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .fourthBook .information .info div span {
+  color: rgb(150, 154, 160);
+  font-size: 18px;
+}
+body .sectionTwo .container .books .fourthBook .information .info div div {
+  display: flex;
+  flex-direction: column;
+}
+body .sectionTwo .container .books .fifthBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  gap: 10px;
+}
+body .sectionTwo .container .books .fifthBook .offset {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectionTwo .container .books .fifthBook .offset img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .sectionTwo .container .books .fifthBook .offset .darklight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionTwo .container .books .fifthBook .information {
+  height: 100%;
+  width: 100%;
+}
+body .sectionTwo .container .books .fifthBook .information .info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+body .sectionTwo .container .books .fifthBook .information .info button {
+  height: 65px;
+  width: 220px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 202, 66);
+  color: rgb(27, 55, 100);
+  font-size: 19px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .fifthBook .information .info h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .fifthBook .information .info p {
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  max-width: 90%;
+  line-height: 2;
+}
+body .sectionTwo .container .books .fifthBook .information .info div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .sectionTwo .container .books .fifthBook .information .info div .printed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+body .sectionTwo .container .books .fifthBook .information .info div i {
+  color: rgb(255, 202, 66);
+}
+body .sectionTwo .container .books .fifthBook .information .info div p {
+  color: #1b3764;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .fifthBook .information .info div span {
+  color: rgb(150, 154, 160);
+  font-size: 18px;
+}
+body .sectionTwo .container .books .fifthBook .information .info div div {
+  display: flex;
+  flex-direction: column;
+}
+body .sectionTwo .container .books .sixthBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  gap: 10px;
+}
+body .sectionTwo .container .books .sixthBook .offset {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectionTwo .container .books .sixthBook .offset img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .sectionTwo .container .books .sixthBook .offset .darklight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionTwo .container .books .sixthBook .information {
+  height: 100%;
+  width: 100%;
+}
+body .sectionTwo .container .books .sixthBook .information .info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+body .sectionTwo .container .books .sixthBook .information .info button {
+  height: 65px;
+  width: 220px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 202, 66);
+  color: rgb(27, 55, 100);
+  font-size: 19px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .sixthBook .information .info h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .sixthBook .information .info p {
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  max-width: 90%;
+  line-height: 2;
+}
+body .sectionTwo .container .books .sixthBook .information .info div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .sectionTwo .container .books .sixthBook .information .info div .printed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+body .sectionTwo .container .books .sixthBook .information .info div i {
+  color: rgb(255, 202, 66);
+}
+body .sectionTwo .container .books .sixthBook .information .info div p {
+  color: #1b3764;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+body .sectionTwo .container .books .sixthBook .information .info div span {
+  color: rgb(150, 154, 160);
+  font-size: 18px;
+}
+body .sectionTwo .container .books .sixthBook .information .info div div {
+  display: flex;
+  flex-direction: column;
+}
+body .sectionTwo .container h5 {
+  font-size: 45px;
+  color: rgb(27, 55, 100);
+}
+body .sectionTree {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .sectionTree .container {
+  height: 100%;
+  width: 85%;
+  background-color: rgb(255, 202, 66);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px 0;
+}
+body .sectionTree .container h5 {
+  color: rgb(27, 55, 100);
+  font-size: 45px;
+  font-weight: 700;
+}
+body .sectionTree .container .line {
+  height: 3px;
+  width: 60px;
+  background-color: rgb(27, 55, 100);
+}
+body .sectionTree .container p {
+  font-size: 19px;
+  color: rgb(27, 55, 100);
+  max-width: 40%;
+  text-align: center;
+}
+body .sectionTree .container .input {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .sectionTree .container .input input {
+  height: 50px;
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(150, 154, 160);
+  font-size: 15px;
+}
+body .sectionTree .container .input button {
+  height: 50px;
+  width: 260px;
+  background-color: rgb(27, 55, 100);
+  color: #f6f8fc;
+  font-size: 15px;
+  border: none;
+}
+body footer {
+  background-color: rgb(27, 55, 100);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .container {
+  background-color: rgb(27, 55, 100);
+  height: 500px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .container .sosialMedia {
+  display: flex;
+  flex-direction: column;
+}
+body footer .container .sosialMedia .pageS {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body footer .container .sosialMedia .pageS h2 {
+  font-size: 28px;
+}
+body footer .container .sosialMedia .pageS img {
+  height: 25px;
+  width: 25px;
+}
+body footer .container .sosialMedia .media {
+  display: flex;
+  gap: 10px;
+}
+body footer .container .sosialMedia .media div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(255, 202, 66);
+}
+body footer .container .explore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+body footer .container .explore h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+body footer .container .explore div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: circle;
+}
+body footer .container .explore div ul li {
+  font-size: 18px;
+  color: rgb(180, 199, 231);
+}
+body footer .container .keep {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body footer .container .keep h3 {
+  font-size: 22px;
+}
+body footer .container .keep .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+body footer .container .keep .info p {
+  font-size: 18px;
+  font-weight: 700;
+}
+body footer .container .keep .info span {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(180, 199, 231);
+}
+body footer .container .keep .info .address,
+body footer .container .keep .info .mail,
+body footer .container .keep .info .phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  body .sectionOne header .nav .list ul {
+    gap: 30px;
+  }
+  body .sectionTwo .container .books .firstBook .information .info h5 {
+    font-size: 29px;
+  }
+  body .sectionTwo .container .books .firstBook .information .info p {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  body .sectionTwo .container .books .firstBook .information .info div p {
+    font-size: 22px;
+  }
+  body .sectionTwo .container .books .firstBook .information .info button {
+    height: 50px;
+    width: 180px;
+  }
+  body .sectionTwo .container .books .secondBook .information .info h5 {
+    font-size: 29px;
+  }
+  body .sectionTwo .container .books .secondBook .information .info p {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  body .sectionTwo .container .books .secondBook .information .info div p {
+    font-size: 22px;
+  }
+  body .sectionTwo .container .books .secondBook .information .info button {
+    height: 50px;
+    width: 180px;
+  }
+  body .sectionTwo .container .books .thirdBook .information .info h5 {
+    font-size: 29px;
+  }
+  body .sectionTwo .container .books .thirdBook .information .info p {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  body .sectionTwo .container .books .thirdBook .information .info div p {
+    font-size: 22px;
+  }
+  body .sectionTwo .container .books .thirdBook .information .info button {
+    height: 50px;
+    width: 180px;
+  }
+  body .sectionTwo .container .books .fourthBook .information .info h5 {
+    font-size: 29px;
+  }
+  body .sectionTwo .container .books .fourthBook .information .info p {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  body .sectionTwo .container .books .fourthBook .information .info div p {
+    font-size: 22px;
+  }
+  body .sectionTwo .container .books .fourthBook .information .info button {
+    height: 50px;
+    width: 180px;
+  }
+  body .sectionTwo .container .books .fifthBook .information .info h5 {
+    font-size: 29px;
+  }
+  body .sectionTwo .container .books .fifthBook .information .info p {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  body .sectionTwo .container .books .fifthBook .information .info div p {
+    font-size: 22px;
+  }
+  body .sectionTwo .container .books .fifthBook .information .info button {
+    height: 50px;
+    width: 180px;
+  }
+  body .sectionTwo .container .books .sixthBook .information .info h5 {
+    font-size: 29px;
+  }
+  body .sectionTwo .container .books .sixthBook .information .info p {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  body .sectionTwo .container .books .sixthBook .information .info div p {
+    font-size: 22px;
+  }
+  body .sectionTwo .container .books .sixthBook .information .info button {
+    height: 50px;
+    width: 180px;
+  }
+  body .sectionTwo .container .books .firstBook {
+    width: 30%;
+  }
+  body .sectionTwo .container .books .secondBook {
+    width: 30%;
+  }
+  body .sectionTwo .container .books .thirdBook {
+    width: 30%;
+  }
+  body .sectionTwo .container .books .fourthBook {
+    width: 30%;
+  }
+  body .sectionTwo .container .books .fifthBook {
+    width: 30%;
+  }
+  body .sectionTwo .container .books .sixthBook {
+    width: 30%;
+  }
+  body .sectionOne header .nav .pages .sosial div {
+    height: 45px;
+    width: 45px;
+  }
+  body .sectionOne header .nav .list {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body .sectionOne header .nav .list ul {
+    gap: 10px;
+  }
+  body .sectionOne header .nav .list {
+    gap: 14px;
+  }
+  body .sectionTree .container p {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 912px) {
+  body .sectionOne header .nav .list .hamburgericon {
+    display: block;
+    font-size: 18px;
+  }
+  body .sectionOne header .nav .list .hamburgermenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 999;
+  }
+  body .sectionOne header .nav .list ul {
+    display: none;
+  }
+  body .sectionOne header .nav .list .cart {
+    display: none;
+  }
+  body .sectionOne header .nav .list button {
+    display: none;
+  }
+  body .sectionOne .container p {
+    max-width: 60%;
+  }
+  body .sectionTwo .container .books .firstBook {
+    width: 45%;
+  }
+  body .sectionTwo .container .books .secondBook {
+    width: 45%;
+  }
+  body .sectionTwo .container .books .thirdBook {
+    width: 45%;
+  }
+  body .sectionTwo .container .books .fourthBook {
+    width: 45%;
+  }
+  body .sectionTwo .container .books .fifthBook {
+    width: 45%;
+  }
+  body .sectionTwo .container .books .sixthBook {
+    width: 45%;
+  }
+  body footer {
+    display: none;
+  }
+  body .sectionTree .container .input input {
+    width: 240px;
+  }
+  body .sectionTree .container .input button {
+    width: 240px;
+  }
+  body .sectionTree .container h5 {
+    font-size: 35px;
+  }
+  body .sectionOne .container h5 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .sectionOne .container p {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 540px) {
+  body .sectionOne header .nav .list .hamburgermenu {
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+  }
+  body .sectionOne header .nav .list .hamburgermenu.show {
+    display: block;
+  }
+  body .sectionOne .container p {
+    max-width: 100%;
+  }
+  body .sectionOne .container h5 {
+    font-size: 40px;
+  }
+  body .sectionTwo .container .books .firstBook {
+    width: 100%;
+  }
+  body .sectionTwo .container .books .secondBook {
+    width: 100%;
+  }
+  body .sectionTwo .container .books .thirdBook {
+    width: 100%;
+  }
+  body .sectionTwo .container .books .fourthBook {
+    width: 100%;
+  }
+  body .sectionTwo .container .books .fifthBook {
+    width: 100%;
+  }
+  body .sectionTwo .container .books .sixthBook {
+    width: 100%;
+  }
+  body .sectionTwo .container {
+    padding: 50px 0;
+  }
+  body .sectionTree .container p {
+    max-width: 90%;
+  }
+  body .sectionTree .container .input input {
+    width: 95%;
+  }
+  body .sectionTree .container .input button {
+    width: 95%;
+  }
+  body .sectionTree .container {
+    padding: 50px 0;
+  }
+}/*# sourceMappingURL=mystore.css.map */

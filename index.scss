@@ -1,0 +1,2198 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #f6f8fc;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  .sectionOne {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b3764;
+
+    header {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .nav {
+        height: 100%;
+        width: 85%;
+        background-color: #1b3764;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+
+        .pages {
+          width: 30%;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 20px;
+
+          .logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              height: 25px;
+              width: 25px;
+            }
+
+            h3 {
+              font-size: 28px;
+            }
+          }
+
+          .sosial {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            div {
+              height: 45px;
+              width: 45px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #f6f8fc;
+              color: #1b3764;
+            }
+          }
+        }
+
+        .list {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+
+          ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            list-style: none;
+            font-size: 17px;
+            cursor: pointer;
+            
+
+            a{
+              color: #f6f8fc;
+              text-decoration: none;
+            }
+          }
+
+          .cart {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            i {
+              font-size: 17px;
+            }
+
+            sup {
+              height: 75px;
+              width: 75px;
+              background-color: rgba(255, 202, 66, 1);
+              font-size: 12px;
+              border-radius: 50%;
+              padding: 1px;
+              color: rgba(27, 55, 100, 1);
+              font-weight: 700;
+            }
+          }
+
+          button {
+            height: 50px;
+            width: 180px;
+            background-color: rgba(255, 202, 66, 1);
+            color: rgba(27, 55, 100, 1);
+            font-size: 17px;
+            border: none;
+            font-weight: 700;
+          }
+
+          .hamburgermenu {
+            display: none;
+            height: 100%;
+            padding: 20px;
+            width: 30%;
+            background-color: #1b3764;
+           
+    
+          ul{
+            padding: 30px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            li{
+              color: rgba(27, 55, 100, 1);
+              font-size: 20px;
+              font-weight: 700;
+            }
+          
+          }
+          
+          i{
+            width: 100%;
+            color: #f6f8fc;
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            justify-content: flex-end;
+          }
+        }
+          
+          
+          .hamburgericon {
+            display: none;
+          }
+
+
+        }
+      }
+    }
+
+    .welcomePage {
+      height: 100%;
+      width: 85%;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding-bottom: 50px;
+
+      .leftPage {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+
+        h1 {
+          font-size: 65px;
+        }
+
+        p {
+          font-size: 19px;
+          max-width: 100%;
+        }
+
+        i {
+          font-size: 24px;
+        }
+
+        .buttons {
+          display: flex;
+          gap: 25px;
+          align-items: center;
+
+          :first-child {
+            height: 55px;
+            width: 180px;
+            border: none;
+            background-color: rgba(255, 202, 66, 1);
+            color: rgba(27, 55, 100, 1);
+            font-size: 17px;
+            font-weight: 700;
+          }
+          p {
+            text-decoration: underline;
+            font-size: 17px;
+          }
+        }
+
+        .ratings {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          align-items: center;
+
+          div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            i {
+              font-size: 15px;
+              color: rgba(255, 202, 66, 1);
+            }
+
+            div {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+
+      .rightPage {
+        height: 100%;
+        width: 50%;
+        background-image: url("./css/Background.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .offset {
+          height: 100%;
+          width: 100%;
+          background-color: rgba(249, 251, 255, 1);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+
+          .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+
+            img{
+             
+                height: 100%;
+                width: 80%;
+        
+            }
+        }
+
+          .darklight {
+            text-align: center;
+            width: 100%;
+            height: 100%;
+          }
+
+          img {
+            height: 100%;
+            width: 100%;
+          }
+
+          i {
+            font-size: 18px;
+            color: rgba(27, 55, 100, 1);
+            max-width: 85%;
+          }
+
+          .down {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .left {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+
+              div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 48%;
+                height: 130px;
+
+                h5 {
+                  color: rgba(27, 55, 100, 1);
+                  font-size: 20px;
+                  font-weight: 800;
+                  text-align: center;
+                }
+              }
+
+              p {
+                color: rgba(27, 55, 100, 1);
+                font-size: 20px;
+              }
+
+              i {
+                color: rgba(27, 55, 100, 1);
+              }
+            }
+
+            .right {
+              height: 163px;
+              width: 240px;
+              border-radius: 50%;
+              background-color: rgb(231, 208, 147);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+              bottom: 60px;
+              right: 20px;
+
+              .offsetR {
+                height: 145px;
+                width: 145px;
+                background-color: rgba(255, 202, 66, 1);
+                border-radius: 50%;
+
+                h3 {
+                  color: #1b3764;
+                }
+
+                i {
+                  color: #1b3764;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sectionTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      height: 100%;
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+      align-items: center;
+      padding: 100px 0;
+      gap: 40px;
+
+      .books {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+
+      h5 {
+        font-size: 45px;
+        color: rgba(27, 55, 100, 1);
+      }
+
+      .firstBook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        gap: 10px;
+
+        .offset {
+          height: 100%;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          .darklight {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+
+        .information {
+          height: 100%;
+          width: 50%;
+
+          .info {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 10px;
+            gap: 15px;
+
+            button {
+              height: 65px;
+              width: 220px;
+              background-color: transparent;
+              border: 1px solid rgba(255, 202, 66, 1);
+              color: rgba(27, 55, 100, 1);
+              font-size: 19px;
+              font-weight: 700;
+            }
+
+            h5 {
+              font-size: 32px;
+              font-weight: 700;
+            }
+
+            p {
+              font-size: 19px;
+              color: rgba(150, 154, 160, 1);
+              max-width: 90%;
+              line-height: 2;
+            }
+
+            div {
+              display: flex;
+              flex-direction: row;
+              gap: 30px;
+
+              .page,
+              .length {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 7px;
+
+                .pages586,
+                .length10 {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 3px;
+                }
+
+                i {
+                  color: rgba(255, 202, 66, 1);
+                }
+
+                p {
+                  color: #1b3764;
+                  font-size: 24px;
+                  line-height: 1;
+                }
+
+                span {
+                  color: rgba(150, 154, 160, 1);
+                  font-size: 18px;
+                }
+
+                div {
+                  display: flex;
+                  flex-direction: column;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .secondBook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        gap: 10px;
+
+        .offset {
+          height: 100%;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          .darklight {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+
+        .information {
+          height: 100%;
+          width: 50%;
+
+          .info {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 10px;
+            gap: 15px;
+
+            button {
+              height: 65px;
+              width: 220px;
+              background-color: transparent;
+              border: 1px solid rgba(255, 202, 66, 1);
+              color: rgba(27, 55, 100, 1);
+              font-size: 19px;
+              font-weight: 700;
+            }
+
+            h5 {
+              font-size: 32px;
+              font-weight: 700;
+            }
+
+            p {
+              font-size: 19px;
+              color: rgba(150, 154, 160, 1);
+              max-width: 90%;
+              line-height: 2;
+            }
+
+            div {
+              display: flex;
+              flex-direction: row;
+              gap: 30px;
+
+              .page,
+              .length {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 7px;
+
+                .pages586,
+                .length10 {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 3px;
+                }
+
+                i {
+                  color: rgba(255, 202, 66, 1);
+                }
+
+                p {
+                  color: #1b3764;
+                  font-size: 24px;
+                  line-height: 1;
+                }
+
+                span {
+                  color: rgba(150, 154, 160, 1);
+                  font-size: 18px;
+                }
+
+                div {
+                  display: flex;
+                  flex-direction: column;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sectionTree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244, 248, 255, 1);
+
+    .container {
+      height: 100%;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      padding: 100px 0;
+      align-items: center;
+
+      .img {
+        height: 100%;
+        width: 50%;
+        display: flex;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        gap: 30px;
+
+        h3 {
+          font-size: 45px;
+          font-weight: 700;
+          color: #1b3764;
+        }
+
+        p {
+          font-size: 19px;
+          color: #969aa0;
+          max-width: 100%;
+        }
+
+        .about {
+          display: flex;
+          gap: 30px;
+          align-items: center;
+
+          .firstC span,
+          .secondC span,
+          .thirdC span {
+            font-size: 18px;
+            color: #969aa0;
+            background-color: transparent;
+          }
+
+          div {
+            p {
+              font-size: 45px;
+              color: rgba(27, 55, 100, 1);
+              font-weight: 700;
+            }
+          }
+        }
+
+        .contact {
+          display: flex;
+          height: 100%;
+          width: 85%;
+          background-color: rgba(27, 55, 100, 1);
+          justify-content: flex-start;
+          align-items: center;
+          padding: 25px;
+          gap: 30px;
+
+          img {
+            height: 100%;
+            width: 30%;
+            object-fit: cover;
+          }
+
+          .inf {
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+
+            p {
+              font-size: 19px;
+              font-weight: 700;
+              color: rgba(255, 202, 66, 1);
+              max-width: 100%;
+            }
+            span {
+              font-size: 19px;
+              color: rgba(180, 199, 231, 1);
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sectionFour {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      padding: 100px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      width: 85%;
+      height: 100%;
+
+      h5 {
+        color: rgba(27, 55, 100, 1);
+        font-size: 45px;
+        font-weight: 700;
+      }
+
+      .line {
+        width: 50px;
+        height: 3px;
+        background-color: rgba(255, 202, 66, 1);
+      }
+
+      .book {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        flex-wrap: wrap;
+
+        div {
+          height: 100%;
+          width: 21%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+        }
+
+        h4 {
+          font-size: 24px;
+          color: rgba(27, 55, 100, 1);
+        }
+
+        p {
+          color: rgba(150, 154, 160, 1);
+          font-size: 18px;
+        }
+
+        .img1 {
+          height: 90px;
+          width: 90px;
+        }
+        .img2 {
+          height: 90px;
+          width: 200px;
+        }
+        .img3 {
+          height: 110px;
+          width: 180px;
+        }
+        .img4 {
+          height: 90px;
+          width: 90px;
+        }
+      }
+    }
+  }
+
+  .sectionFive {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 55, 100, 1);
+
+    .container {
+      height: 100%;
+      padding: 60px 0;
+      width: 85%;
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(27, 55, 100, 1);
+      align-items: center;
+
+      .img {
+        width: 50%;
+        height: 100%;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .info {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h5 {
+          font-size: 45px;
+          font-weight: 700;
+        }
+
+        div {
+          height: 3px;
+          width: 50px;
+          background-color: rgba(255, 202, 66, 1);
+        }
+
+        p {
+          font-size: 19px;
+          color: rgba(180, 199, 231, 1);
+          max-width: 70%;
+        }
+
+        button {
+          height: 65px;
+          width: 220px;
+          color: #f6f8fc;
+          background-color: transparent;
+          border: 1px solid rgba(255, 202, 66, 1);
+          font-size: 19px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .sectionSix {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      width: 85%;
+      height: 100%;
+      padding: 100px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      h5 {
+        font-size: 40px;
+        font-weight: 700;
+        color: rgba(27, 55, 100, 1);
+      }
+
+      .line {
+        width: 70px;
+        height: 3px;
+        background-color: rgba(255, 202, 66, 1);
+      }
+
+      .learn {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .left {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+
+          .box {
+            height: 260px;
+            width: 45%;
+            background-color: rgba(244, 248, 255, 1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 10px;
+            gap: 10px;
+
+            div {
+              font-size: 22px;
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+              background-color: rgba(255, 202, 66, 1);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: rgba(27, 55, 100, 1);
+            }
+
+            p {
+              font-size: 24px;
+              max-width: 90%;
+              color: rgba(27, 55, 100, 1);
+            }
+          }
+        }
+
+        .right {
+          height: 100%;
+          width: 50%;
+
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .sectionSeven {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(244, 248, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      width: 85%;
+      height: 100%;
+      padding: 100px 0;
+
+      h5 {
+        font-size: 40px;
+        font-weight: 700;
+        color: rgba(27, 55, 100, 1);
+      }
+
+      .line {
+        height: 3px;
+        width: 55px;
+        background-color: rgba(255, 202, 66, 1);
+      }
+
+      .boxes {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        .box {
+          height: 100%;
+          width: 43%;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          flex-direction: column;
+          padding: 40px 20px;
+          justify-content: center;
+          gap: 15px;
+
+          .pl {
+            display: flex;
+            gap: 30px;
+          }
+
+          h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba(27, 55, 100, 1);
+          }
+
+          p {
+            font-size: 18px;
+            font-weight: 400;
+            color: rgba(150, 154, 160, 1);
+          }
+
+          .pages {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            i {
+              color: rgba(255, 202, 66, 1);
+            }
+
+            p {
+              font-size: 18px;
+              font-weight: 700;
+              color: rgba(27, 55, 100, 1);
+            }
+
+            span {
+              font-size: 18px;
+              color: rgba(150, 154, 160, 1);
+            }
+          }
+
+          .length {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            i {
+              color: rgba(255, 202, 66, 1);
+            }
+
+            p {
+              font-size: 18px;
+              font-weight: 700;
+              color: rgba(27, 55, 100, 1);
+            }
+
+            span {
+              font-size: 16px;
+              color: rgba(150, 154, 160, 1);
+            }
+          }
+        }
+      }
+
+      button {
+        height: 65px;
+        width: 30%;
+        background-color: rgba(255, 202, 66, 1);
+        border: none;
+        color: rgba(27, 55, 100, 1);
+        font-size: 17px;
+        font-weight: 700;
+      }
+
+      .short {
+        color: rgba(150, 154, 160, 1);
+        font-size: 17px;
+        max-width: 22%;
+        text-align: center;
+      }
+    }
+  }
+
+  .sectionNine {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244, 248, 255, 1);
+
+    .container {
+      height: 100%;
+      width: 85%;
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 0;
+
+      h5 {
+        font-size: 45px;
+        color: #1b3764;
+      }
+
+      .line {
+        height: 3px;
+        width: 60px;
+        background-color: rgba(255, 202, 66, 1);
+      }
+
+      .articles {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        .box {
+          height: 500px;
+          width: 31%;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+
+          .info {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+
+          img {
+            width: 100%;
+            height: 60%;
+            object-fit: cover;
+          }
+
+          h1 {
+            font-size: 24px;
+            color: rgba(27, 55, 100, 1);
+            font-weight: 700;
+            padding: 0 15px;
+          }
+
+          p {
+            font-size: 19px;
+            color: rgba(150, 154, 160, 1);
+            padding: 0 15px;
+          }
+
+          .read {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 15px;
+
+            button {
+              height: 25px;
+              width: 90px;
+              color: rgba(27, 55, 100, 1);
+              font-size: 15px;
+              font-weight: 700;
+              border: 1px solid rgba(27, 55, 100, 1);
+              border-top: none;
+              border-left: none;
+              border-right: none;
+              background-color: transparent;
+            }
+
+            span {
+              font-size: 15px;
+              color: rgba(27, 55, 100, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sectionTen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      height: 100%;
+      width: 85%;
+      background-color: rgba(255, 202, 66, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 100px 0;
+
+      h5 {
+        color: rgba(27, 55, 100, 1);
+        font-size: 45px;
+        font-weight: 700;
+      }
+
+      .line {
+        height: 3px;
+        width: 60px;
+        background-color: rgba(27, 55, 100, 1);
+      }
+
+      p {
+        font-size: 19px;
+        color: rgba(27, 55, 100, 1);
+        max-width: 40%;
+        text-align: center;
+      }
+
+      .input {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        input {
+          height: 50px;
+          width: 450px;
+          background-color: rgba(255, 255, 255, 1);
+          border: none;
+          color: rgba(150, 154, 160, 1);
+          font-size: 15px;
+        }
+
+        button {
+          height: 50px;
+          width: 260px;
+          background-color: rgba(27, 55, 100, 1);
+          color: #f6f8fc;
+          font-size: 15px;
+          border: none;
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: rgba(27, 55, 100, 1);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    .container{
+    background-color: rgba(27, 55, 100, 1);
+    height: 500px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+    .sosialMedia {
+      display: flex;
+      flex-direction: column;
+
+      .pageS {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        h2 {
+          font-size: 28px;
+        }
+
+        img {
+          height: 25px;
+          width: 25px;
+        }
+      }
+
+      .media {
+        display: flex;
+        gap: 10px;
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 40px;
+          width: 40px;
+          border: 1px solid rgba(255, 202, 66, 1);
+        }
+      }
+    }
+
+    .explore {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 20px;
+
+      h3 {
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      div {
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          list-style-type: circle;
+
+          li {
+            font-size: 18px;
+            color: rgba(180, 199, 231, 1);
+          }
+        }
+      }
+    }
+
+    .keep {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h3 {
+        font-size: 22px;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        p {
+          font-size: 18px;
+          font-weight: 700;
+        }
+
+        span {
+          font-size: 18px;
+          font-weight: 400;
+          color: rgba(180, 199, 231, 1);
+        }
+
+        .address,
+        .mail,
+        .phone {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+        }
+      }
+    }
+  }
+
+   
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  body .sectionOne header .nav .list ul {
+    gap: 30px;
+   
+}
+
+body .sectionOne .welcomePage .rightPage .offset i {
+  font-size: 16px;
+  
+}
+
+
+  body .sectionOne .welcomePage .leftPage h1 {
+    font-size: 50px;  
+  }
+  
+  body .sectionOne .welcomePage .leftPage {
+    gap: 30px;
+}
+
+
+body .sectionTwo .container .firstBook {
+  width: 100%;
+  gap: 0;
+  
+}
+
+body .sectionTwo .container .firstBook .offset img {
+  width: 100%;
+  height: 100%;
+}
+
+body .sectionTwo .container .secondBook {
+  width: 100%;
+  
+}
+
+body .sectionTwo .container .secondBook .offset img {
+  width: 100%;
+  height: 100%;
+}
+
+
+body .sectionTwo .container .firstBook .information .info h5 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+body .sectionTwo .container .firstBook .information .info p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body .sectionTwo .container .firstBook .information .info div .page p, body .sectionTwo .container .firstBook .information .info div .length p 
+{
+  font-size: 18px;
+}
+
+body .sectionTwo .container .firstBook .information .info div {
+  gap: 8%;
+}
+body .sectionTwo .container .firstBook .information .info div .page span, body .sectionTwo .container .firstBook .information .info div .length span {
+  color: rgb(150, 154, 160);
+  font-size: 16px;
+}
+
+body .sectionTwo .container .firstBook .information .info button {
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+
+}
+body .sectionTwo .container .firstBook .information .info {
+  gap: 10px;
+}
+
+
+body .sectionTwo .container .secondBook .information .info h5 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+body .sectionTwo .container .secondBook .information .info p {
+  font-size: 16px;
+}
+
+body .sectionTwo .container .secondBook .information .info div .page p, body .sectionTwo .container .secondBook .information .info div .length p 
+{
+  font-size: 18px;
+}
+
+body .sectionTwo .container .secondBook .information .info div {
+  gap: 8%;
+}
+body .sectionTwo .container .secondBook .information .info div .page span, body .sectionTwo .container .secondBook .information .info div .length span {
+  color: rgb(150, 154, 160);
+  font-size: 16px;
+}
+
+body .sectionTwo .container .secondBook .information .info button {
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+
+}
+body .sectionTwo .container .secondBook .information .info {
+  gap: 10px;
+}
+
+body .sectionTwo .container .secondBook {
+  gap: 0; 
+}
+body .sectionTwo .container .books {
+ 
+  gap: 20px;
+}
+body .sectionTwo .container h5 {
+  font-size: 40px;
+}
+
+body .sectionTree .container .info h3 {
+  font-size: 40px;
+ 
+}
+body .sectionTree .container .info p {
+  font-size: 18px;
+}
+body .sectionTree .container .info .about div p {
+  font-size: 40px;
+}
+body .sectionTree .container .info .about .firstC span, body .sectionTree .container .info .about .secondC span, body .sectionTree .container .info .about .thirdC span {
+  font-size: 16px;
+}
+
+body .sectionTree .container .info .contact img {
+  height: 100%;
+  width: 30%;
+}
+
+body .sectionTree .container .info .contact .inf p {
+  font-size: 18px;
+ 
+}
+
+body .sectionTree .container .info .contact .inf span {
+  font-size: 16px;
+}
+
+body .sectionFour .container h5 {
+  font-size: 40px;
+}
+
+body .sectionFour .container .book h4 {
+  font-size: 20px;
+}
+.book p {
+  font-size: 16px;
+}
+
+body .sectionFive .container .info h5 {
+  font-size: 40px;
+}
+
+body .sectionFive .container .info p {
+  font-size: 16px;
+}
+
+body .sectionFive .container .info button {
+  height: 50px;
+  width: 180px;
+  font-size: 16px;
+
+}
+
+
+body .sectionSix .container .learn .left .box p {
+  font-size: 22px;
+  max-width: 85%;
+}
+
+body .sectionSix .container .learn .left .box div {
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+
+}
+
+body .sectionSix .container .learn .right img {
+  height: 90%;
+  width: 90%;
+}
+
+body .sectionSix .container .learn .left .box {
+
+  width: 44%;
+  height: 215px;
+ 
+}
+
+body .sectionSeven .container button {
+  height: 50px;
+  width: 30%;
+  
+}
+body .sectionNine .container h5 {
+  font-size: 40px;
+}
+
+body .sectionTen .container h5 {
+  font-size: 40px;
+}
+ 
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  body .sectionOne header .nav .list {
+  
+    gap: 14px;
+}
+  body .sectionOne header .nav .list ul {
+    gap: 10px;
+}
+
+  body .sectionOne header .nav .list button {
+    height: 50px;
+    width: 180px;
+}
+body .sectionFour .container .book div {
+  width: 27%;
+ 
+}
+
+body .sectionOne .welcomePage .leftPage h1 {
+  font-size: 45px;
+}
+
+body .sectionOne .welcomePage .leftPage .buttons :first-child {
+  height: 50px;
+  width: 160px;
+}
+
+body .sectionTwo .container .books {
+
+  flex-wrap: wrap;
+}
+
+body .sectionTwo .container .firstBook .offset img {
+  width: 70%;
+  height: 100%;
+}
+
+body .sectionTwo .container .firstBook .information .info {
+  gap: 20px;
+}
+body .sectionTwo .container .firstBook .information .info p {
+  font-size: 18px;
+}
+
+body .sectionTwo .container .secondBook .offset img {
+  width: 70%;
+  height: 100%;
+}
+
+body .sectionTwo .container .secondBook .information .info {
+  gap: 20px;
+}
+body .sectionTwo .container .secondBook .information .info p {
+  font-size: 18px;
+}
+
+body .sectionSix .container .learn {
+  flex-direction: column;
+}
+body .sectionSix .container .learn .left {
+  width: 100%;
+  justify-content: space-between;
+}
+
+body .sectionSix .container .learn .left .box {
+  width: 46%;
+}
+body .sectionSix .container .learn .right {
+  width: 100%;
+ 
+}
+
+body .sectionSix .container .learn .right img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+body .sectionSeven .container .boxes .box .length span {
+  font-size: 15px;
+
+}
+body .sectionSeven .container .short {
+  max-width: 40%;
+ 
+}
+
+
+body .sectionNine .container .articles {
+  justify-content: space-between;
+  
+}
+
+body .sectionNine .container .articles .box {
+  width: 48%;
+}
+
+}
+
+@media screen and (max-width: 912px) {
+
+  body .sectionOne {
+    gap: 30px;
+}
+
+body .sectionOne header .nav .list .hamburgericon {
+  display: block;
+  font-size: 18px;
+}
+
+body .sectionOne header .nav .list .hamburgermenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+  z-index: 999;
+}
+
+
+
+body .sectionOne header .nav .pages .sosial {
+  display: none;
+  
+}
+  body .sectionOne header .nav .list ul {
+    display: none;
+  }
+  body .sectionOne header .nav .list .cart {
+    display: none;
+   
+}
+body .sectionOne header .nav .list button {
+display: none;
+}
+
+
+body .sectionOne .welcomePage {
+  flex-direction: column;
+}
+body .sectionOne .welcomePage .leftPage {
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+body .sectionOne .welcomePage .rightPage {
+  display: none;
+}
+
+body .sectionOne .welcomePage .leftPage h1 {
+  font-size: 55px;
+  text-align: center;
+}
+body .sectionTwo .container .secondBook .offset img {
+  width: 90%;
+ 
+}
+
+body .sectionTwo .container .firstBook .offset img {
+    width: 90%;
+    height: 100%;
+}
+
+body .sectionOne .welcomePage .leftPage p {
+  text-align: center;
+}
+
+body .sectionOne .welcomePage .leftPage .buttons :first-child {
+  width: 180px;
+}
+
+body .sectionOne .welcomePage .leftPage .ratings {
+  gap: 55px;
+}
+
+body .sectionTree .container {
+  flex-direction: column-reverse;
+  padding: 30px 0;
+}
+
+body .sectionTree .container .img {
+  width: 100%;
+}
+
+body .sectionTree .container .info {
+  width: 100%;
+  align-items: center;
+}
+
+body .sectionTree .container .img img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+body .sectionFour .container .book div {
+  width: 28%;
+}
+
+body .sectionTwo .container .firstBook .information .info button {
+  width: 180px;
+
+}
+
+body .sectionTwo .container .secondBook .information .info button {
+  width: 180px;
+}
+
+body .sectionSeven .container .boxes .box {
+
+  width: 42%;
+
+}
+
+body .sectionSeven .container .boxes .box .pages {
+  gap: 5px;
+}
+
+body .sectionSeven .container .boxes .box .length {
+  gap: 5px;
+}
+
+body .sectionSeven .container .boxes .box .pl {
+  gap: 10px;
+}
+
+body .sectionNine .container .articles .box {
+  width: 47%;
+}
+
+body .sectionSeven .container button {
+  width: 240px;
+}
+body .sectionTen .container p {
+  max-width: 70%;
+
+}
+
+body .sectionTen .container .input button {
+  width: 240px;
+}
+
+body .sectionTen .container .input input {
+  width: 240px;
+}
+
+ body footer{
+  display: none;
+}
+
+
+}
+
+@media screen and (max-width: 768px){
+
+  body .sectionTwo .container .firstBook .offset img {
+  width: 100%;
+ 
+}
+
+body .sectionTwo .container .firstBook .information .info p {
+  line-height: 1.2;
+}
+
+body .sectionTwo .container .firstBook .information .info {
+  gap: 10px;
+}
+
+body .sectionTwo .container .secondBook .information .info p {
+  line-height: 1.2;
+}
+
+body .sectionTwo .container .secondBook .information .info {
+  gap: 10px;
+}
+
+body .sectionTwo .container {
+  padding: 50px 0;
+
+}
+
+body .sectionFour .container {
+  padding: 50px 0;
+ 
+}
+
+body .sectionSix .container .learn .left .box {
+  width: 44%;
+}
+
+body .sectionSix .container {
+  padding: 50px 0;
+  
+}
+body .sectionSeven .container .boxes .box {
+  width: 39%;
+}
+
+body .sectionSeven .container .boxes .box .pl {
+  gap: 5px;
+  flex-direction: column;
+}
+
+body .sectionSeven .container {
+  padding: 50px 0;
+}
+body .sectionFour .container .book div {
+  width: 43%;
+}
+body .sectionNine .container {
+  padding: 50px 0;
+}
+
+body .sectionNine .container .articles .box {
+  width: 46%;
+}
+
+body .sectionNine .container .articles .box p {
+  font-size: 16px;
+
+}
+body .sectionNine .container .articles .box h1 {
+  font-size: 19px;
+
+}
+body .sectionNine .container .articles .box .read span {
+  font-size: 13px;
+}
+
+body .sectionNine .container .articles .box .read button {
+  height: 25px;
+  width: 67px;
+  font-size: 13px;
+
+}
+
+body .sectionNine .container .articles .box {
+  height: 400px;
+ 
+}
+
+
+}
+
+@media screen and (max-width: 540px){
+
+  body .sectionOne header .nav .list .hamburgermenu {
+    // display: block;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+    &.show{
+      display: block;
+    }
+    
+}
+
+
+  body .sectionTwo .container .firstBook {
+    flex-direction: column;
+}
+
+body .sectionTwo .container .firstBook .offset {
+  width: 100%;
+}
+
+body .sectionTwo .container .firstBook .information {
+  width: 100%;
+  gap: 30px;
+}
+
+body .sectionTwo .container .secondBook {
+  flex-direction: column;
+}
+
+body .sectionTwo .container .secondBook .offset {
+  width: 100%;
+}
+body .sectionTwo .container .secondBook .information {
+  width: 100%;
+  gap: 30px;
+}
+
+body .sectionTwo .container .books {
+  gap: 50px;
+}
+body .sectionOne .welcomePage .leftPage h1 {
+  font-size: 42px;
+
+}
+body .sectionTwo .container h5 {
+  font-size: 35px;
+  text-align: center;
+}
+
+body .sectionTree .container .info h3 {
+  font-size: 35px;
+}
+
+body .sectionTree .container .info .about div p {
+  font-size: 35px;
+}
+
+body .sectionFour .container h5 {
+  font-size: 35px;
+  text-align: center;
+}
+
+body .sectionFour .container .book div {
+  width: 100%;
+}
+
+body .sectionFive .container .info h5 {
+  font-size: 35px;
+  text-align: center;
+}
+body .sectionFive .container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+body .sectionFive .container .info {
+  width: 100%;
+  align-items: center;
+}
+
+body .sectionFive .container .info p {
+  max-width: 100%;
+}
+body .sectionFive .container .img {
+  width: 100%;
+}
+
+body .sectionFive .container {
+  gap: 40px;
+}
+body .sectionSix .container h5 {
+  font-size: 35px;
+  text-align: center;
+
+}
+
+body .sectionSix .container .learn .left .box {
+  width: 100%;
+}
+
+body .sectionSeven .container h5 {
+  font-size: 35px;
+  text-align: center;
+}
+
+body .sectionSeven .container .boxes .box {
+  width: 100%;
+}
+
+body .sectionSeven .container .boxes .box .pl {
+  flex-direction: row;
+  gap: 30px;
+}
+
+body .sectionNine .container h5 {
+  font-size: 35px;
+  text-align: center;
+}
+
+body .sectionNine .container .articles .box {
+  width: 100%;
+}
+
+body .sectionNine .container .articles .box h1 {
+  font-size: 22px;
+}
+body .sectionTen .container p {
+  max-width: 100%;
+}
+
+body .sectionSeven .container .boxes .box .pl {
+ 
+ gap: 0; 
+  justify-content: space-between;
+}
+body .sectionSeven .container .short {
+  max-width: 100%;
+}
+
+body .sectionNine .container .articles .box {
+  height: 100%;
+}
+
+body .sectionTen .container h5 {
+  font-size: 35px;
+  text-align: center;
+}
+
+body .sectionSix .container .learn .right img {
+  height: 400px;
+  
+}
+body .sectionTree .container .img img {
+  height: 400px;
+}
+
+
+}
+
+@media screen and (max-width: 375px){
+
+  body .sectionOne header .nav .pages .sosial div {
+    height: 35px;
+    width: 35px;
+  }
+
+  body .sectionOne .welcomePage .leftPage h1 {
+    font-size: 31px;
+}
+
+body .sectionOne .welcomePage .leftPage .ratings {
+   gap: 0; 
+   justify-content: space-between;
+   width: 100%;
+
+}
+body .sectionTree .container .info .about {
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
+}
+body .sectionTree .container .info .contact .inf span {
+  font-size: 13px;
+}
+
+body .sectionTwo .container h5 {
+  font-size: 30px;
+  text-align: center;
+}
+
+body .sectionTwo .container .firstBook .information .info h5 {
+  font-size: 26px;
+}
+body .sectionTwo .container .secondBook .information .info h5 {
+  font-size: 26px;
+ 
+}
+
+body .sectionTree .container .info h3 {
+  font-size: 30px;
+}
+body .sectionTree .container .info .about div p {
+  font-size: 30px;
+}
+
+body .sectionTree .container .img img {
+  height: 300px;
+}
+body .sectionFour .container h5 {
+  font-size: 30px;
+}
+body .sectionFive .container .info h5 {
+  font-size: 30px;
+
+}
+body .sectionSix .container h5 {
+  font-size: 30px;
+
+}
+body .sectionSix .container .learn .right img {
+  height: 300px;
+}
+body .sectionSeven .container h5 {
+  font-size: 30px;
+
+}
+body .sectionSeven .container .boxes .box .pl {
+  flex-direction: column;
+  gap: 5px;
+}
+
+body .sectionNine .container h5 {
+  font-size: 30px;
+}
+
+body .sectionTen .container h5 {
+  font-size: 30px;
+}
+
+.leftPage p {
+  font-size: 16px;
+
+}
+
+
+
+
+}
