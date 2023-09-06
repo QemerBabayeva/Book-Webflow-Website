@@ -87,7 +87,7 @@ async function getInfo() {
       <img src="${info.image}" alt="">
                 </div>
                 <div class="right">
-                    
+                     
                     <h1>"${info.title}"</h1>
                     <h5>$${info.price}.00 USD</h5>
                     <p>"${info.about}"</p>
